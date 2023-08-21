@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
+import MyCounter from './Components/MyCounter';
+import YourCounter from './Components/YourCount';
+import WeCounter from './Components/WeCounter';
+import OurCounter from './Components/OurCounter';
+import WeCounter2 from './Components/WeCounter2';
 
 // function App() {
 //   return (
@@ -17,7 +22,16 @@ class App extends Component{
     return (
       <div className = "container">
         <h1> Index 페이지입니다. </h1>
-
+        <h3> MyCounter </h3>
+        <MyCounter/>
+        <h3> YourCounter </h3>
+        <YourCounter/>
+        <h3> OurCounter </h3>
+        <OurCounter/>
+        <h3> WeCounter </h3>
+        <WeCounter/>
+        <h3> WeCounter2 </h3>
+        <WeCounter2/>
       </div>
     )
   }
